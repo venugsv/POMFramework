@@ -13,9 +13,19 @@
   
   <classes>
   
-  <class name="com.TestCases.Tc_01_ValidateLoginCredentials"></class>
+  <class name="com.TestCases.Tc_01_Login_Admin"></class>
+  <!--  <class name="com.TestCases.Tc_01_ValidateLoginCredentials"></class>  -->
+  <!--  <class name="com.Te
+  stCases.Tc_01_Add_Customer"></class> -->
+  <!-- <class name="com.TestCases.Tc_01_Edit_Staff_Details"></class>-->
   
+  
+  <!-- <class name="com.TestCases.Tc_01_Delete_Staff"></class>   -->
+  <!-- <class name="com.TestCases.Tc_export_excel"></class> -->
   </classes>
+  
+  
+
   
   </test> <!-- Test -->
 </suite> <!-- Suite -->

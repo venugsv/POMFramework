@@ -57,9 +57,9 @@ function toggleAllBoxes() {
 <tr>
 <td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Mar 18 20:52:55 IST 2018</td>
+<td>Started on:</td><td>Fri Apr 13 10:07:26 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>7 seconds (7783 ms)</td>
+<tr><td>Total time:</td><td>10 seconds (10709 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,11 +75,12 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.TestCases.Tc_01_ValidateLoginCredentials.Tc_01_ValidateLoginCredentials()'><b>Tc_01_ValidateLoginCredentials</b><br>Test class: com.TestCases.Tc_01_ValidateLoginCredentials</td>
-<td><div><pre>java.lang.NullPointerException
-	at com.GenericFunctions.GenericFunctions.getCommontestdata(GenericFunctions.java:123)
-	at com.GenericFunctions.GenericFunctions.launchApplication(GenericFunctions.java:61)
-	at com.TestCases.Tc_01_ValidateLoginCredentials.Tc_01_ValidateLoginCredentials(Tc_01_ValidateLoginCredentials.java:22)
+<td title='com.TestCases.Tc_export_excel.Write_excel()'><b>Write_excel</b><br>Test class: com.TestCases.Tc_export_excel</td>
+<td><div><pre>org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /docProps/app.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@561868a0
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:595)
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1539)
+	at org.apache.poi.POIXMLDocument.write(POIXMLDocument.java:227)
+	at com.TestCases.Tc_export_excel.Write_excel(Tc_export_excel.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -105,11 +106,15 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-</pre></div><a href='#' onClick='toggleBox("stack-trace108982313", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace108982313'><pre>java.lang.NullPointerException
-	at com.GenericFunctions.GenericFunctions.getCommontestdata(GenericFunctions.java:123)
-	at com.GenericFunctions.GenericFunctions.launchApplication(GenericFunctions.java:61)
-	at com.TestCases.Tc_01_ValidateLoginCredentials.Tc_01_ValidateLoginCredentials(Tc_01_ValidateLoginCredentials.java:22)
+Caused by: org.apache.poi.openxml4j.exceptions.OpenXML4JException: The part /docProps/app.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@561868a0
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:586)
+	... 28 more
+</pre></div><a href='#' onClick='toggleBox("stack-trace1119622337", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1119622337'><pre>org.apache.poi.openxml4j.exceptions.OpenXML4JRuntimeException: Fail to save: an error occurs while saving the package : The part /docProps/app.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@561868a0
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:595)
+	at org.apache.poi.openxml4j.opc.OPCPackage.save(OPCPackage.java:1539)
+	at org.apache.poi.POIXMLDocument.write(POIXMLDocument.java:227)
+	at com.TestCases.Tc_export_excel.Write_excel(Tc_export_excel.java:58)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -135,9 +140,12 @@ function toggleAllBoxes() {
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.apache.poi.openxml4j.exceptions.OpenXML4JException: The part /docProps/app.xml failed to be saved in the stream with marshaller org.apache.poi.openxml4j.opc.internal.marshallers.DefaultMarshaller@561868a0
+	at org.apache.poi.openxml4j.opc.ZipPackage.saveImpl(ZipPackage.java:586)
+	... 28 more
 </pre></div></td>
-<td>7</td>
-<td>com.TestCases.Tc_01_ValidateLoginCredentials@30ee2816</td></tr>
+<td>10</td>
+<td>com.TestCases.Tc_export_excel@18be83e4</td></tr>
 </table><p>
 </body>
 </html>
